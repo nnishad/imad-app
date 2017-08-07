@@ -7,10 +7,11 @@ function moveBottom(){
     marginTop=marginTop+1;
     img.style.marginTop=marginTop+'px';
 }
-var counter=0;
 img.onclick =function(){
     var interval=setInterval(moveBottom,50);
 };
+
+var counter=0;
 var button =document.getElementById('counter');
 button.onclick=function(){
   counter =counter+1;
