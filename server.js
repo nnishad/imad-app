@@ -17,6 +17,18 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+app.get('/a1', function (req, res) {
+  res.send("this is article one comming from server");
+});
+
+app.get('/a2', function (req, res) {
+  res.send("this is article two comming from server");
+});
+
+app.get('/a3', function (req, res) {
+  res.send("this is article three comming from server");
+});
+
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
