@@ -4,7 +4,7 @@ console.log('Loaded!');
 var img=document.getElementById('madi');
 var marginTop=0;
 function moveBottom(){
-    marginTop=marginTop-11;
+    marginTop=marginTop-1;
     img.style.marginTop=marginTop+'px';
 }
 img.onclick =function(){
