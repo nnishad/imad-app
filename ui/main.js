@@ -8,7 +8,7 @@ function moveBottom(){
     img.style.marginTop=marginTop+'px';
 }
 img.onclick =function(){
-    var interval=setInterval(moveBottom,50);
+    var interval=setInterval(moveBottom,100);
 };
 
 var counter=0;
