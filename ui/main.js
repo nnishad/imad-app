@@ -3,12 +3,12 @@ console.log('Loaded!');
 // move madi
 var img=document.getElementById('madi');
 var marginTop=0;
-function moveTop(){
-    marginBottom=marginBottom+1;
-    img.style.marginBottom=marginBottom+'px';
+function moveBottom(){
+    marginTop=marginTop-11;
+    img.style.marginTop=marginTop+'px';
 }
 img.onclick =function(){
-    var interval=setInterval(moveTop,50);
+    var interval=setInterval(moveBottom,50);
 };
 
 var counter=0;
